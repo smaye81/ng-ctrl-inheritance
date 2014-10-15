@@ -16,6 +16,3 @@
 
 * Coming soon
 
-### TODO ###
-
-* Add karma config
