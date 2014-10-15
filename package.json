@@ -1,0 +1,31 @@
+{
+  "name": "ng-ctrl-inheritance",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sample/server.js",
+  "scripts": {
+    "start": "node sample/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smaye81/ng-ctrl-inheritance.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^3.5.1",
+    "karma": "^0.12.1",
+    "karma-jasmine": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.1.2",
+    "gulp": "^3.6.0",
+    "browserify": "^4.1.5",
+    "config": "^0.4.36",
+    "watchify": "^0.10.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-clean": "^0.3.0",
+    "vinyl-source-stream": "^0.1.1",
+    "gulp-uglify": "~0.3.0",
+    "gulp-streamify": "0.0.5",
+    "karma-browserify": "^0.2.1"
+  }
+}

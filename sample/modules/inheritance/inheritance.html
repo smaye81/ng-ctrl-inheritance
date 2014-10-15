@@ -1,0 +1,29 @@
+<h2>Inheritance FTW!</h2>
+
+<section ng-controller="BaseCtrl as baseCtrl">
+
+    <h3 class="base">Base Controller</h3>
+    <h4>Common Property: {{baseCtrl.testCommon}}</h4>
+
+    <h4>Overridable Property: <span class="base">{{baseCtrl.testProp}}</span></h4>
+    <div>
+        <button ng-click="baseCtrl.setCommonSize()">setCommonSize on base</button><span class="mgn-l">{{baseCtrl.commonSize}}</span>
+    </div>
+    <div class="mgn-t">
+        <button ng-click="baseCtrl.setSize()">setSize on base</button><span class="mgn-l">{{baseCtrl.testSize}}</span>
+    </div>
+    <hr/>
+</section>
+<section ng-controller="ChildCtrl as childCtrl">
+    <h3 class="child">Child Controller</h3>
+    <h4>Common Property: {{childCtrl.testCommon}}</h4>
+
+    <h4>Overridable Property: <span class="child">{{childCtrl.testProp}}</span></h4>
+
+    <div>
+        <button ng-click="childCtrl.setCommonSize()">setCommonSize inherited from base</button><span class="mgn-l">{{childCtrl.commonSize}}</span>
+    </div>
+    <div class="mgn-t">
+        <button ng-click="childCtrl.setSize()">setSize overridden on the child</button><span class="mgn-l">{{childCtrl.testSize}}</span>
+    </div>
+</section>

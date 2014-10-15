@@ -1,0 +1,52 @@
+/* CONTENTS */
+/*
+    Common
+    Bootstrap Overrides
+    Search
+    Add
+*/
+
+/* Common */
+body {}
+
+.main-content {
+    padding:12px;
+}
+header {
+    background-color:#ccc;
+    padding:0 0 12px 12px;
+    color:#771100;
+    background-image:linear-gradient(to top right,#ccc, #fff);
+    display: table;
+    width: 100%;
+    margin:0;
+}
+
+a, a:focus { outline: none; }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    margin-top:24px;
+    text-align:center;
+}
+.sample-button {
+    background-color: #ff9900;
+    border:none;
+}
+.sample-button:hover {
+    background-color: #771100;
+}
+.base {
+    color:#0000ff;
+}
+.child {
+    color:#00cc00;
+}
+.mgn-l {
+    margin-left:12px;
+}

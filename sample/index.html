@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ng-ctrl-inheritance</title>
+
+    <!-- Reset -->
+    <link rel="stylesheet" href="styles/reset.css"/>
+
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <!--<link rel="stylesheet" href="styles/fonts.css"/>-->
+    <!-- Site CSS-->
+    <link rel="stylesheet" href="styles/app.css"/>
+</head>
+<body ng-app="sample">
+
+    <header>
+        <h1>ng-ctrl-inheritance</h1>
+        <h1>Simple Controller Inheritance for Angular</h1>
+    </header>
+
+    <section class="main-content">
+        <ui-view></ui-view>
+    </section>
+
+    <script src="bower_components/lodash/dist/lodash.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../release/ng-ctrl-inheritance.js"></script>
+
+    <script src="appBundle.js"></script>
+
+</body>
+</html>

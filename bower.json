@@ -1,0 +1,30 @@
+{
+    "name": "ng-ctrl-inheritance",
+    "version": "0.1.0",
+    "authors": [
+        "Steve Ayers"
+    ],
+    "description": "Simple Controller Inheritance for Angular projects",
+    "license": "MIT",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "app/bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "~1.2.15",
+        "angular-mocks": "~1.2.15",
+        "bootstrap": "~3.1.1",
+        "angular-bootstrap": "~0.10.0",
+        "angular-route": "~1.2.15",
+        "lodash": "~2.4.1"
+    },
+    "devDependencies" : {
+        "angular-scenario": "~1.2.15",
+        "angular-ui-router": "~0.2.10"
+    }
+}
